@@ -1,0 +1,6 @@
+tb = ('Corinthians','Palmeiras','Santos','Grêmio','Cruzeiro','Flamengo','Vasco','Chapecoense','Atlético','Botafogo','Atlético-PR','Bahia','São Paulo','Fluminense','Sport Recife','EC Vitória','Coritiba','Avaí','Ponte Preta','Atlético-GO')
+print(f'Lista de times do brasileirão: {tb}')
+print(f'Os 5 primeiro colocados são: {tb[:5]}')
+print(f'Os 4 últimos colocados são: {tb[-4:]}')
+print(f'Os times em ordem alfabética são: {sorted(tb)}')
+print(f'O time Fluminense está na posição: {tb.index('Fluminense')+1}')

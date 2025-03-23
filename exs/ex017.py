@@ -1,0 +1,10 @@
+from math import hypot,exp
+print('Do triângulo retângulo')
+co = float(input('Digite a medida do cateto oposto: '))
+ca = float(input('Digite a medida do cateto adjacente: '))
+h = (co ** 2 + ca ** 2) ** (1/2)
+hbf = hypot(co,ca)
+hb = (pow(co,2) + pow(ca,2)) ** (1/2)
+print('A hipotenusa é {}'.format(h))
+print('A hipotenusa é {}'.format(hbf))
+print('A hipotenusa é {}'.format(hb))
